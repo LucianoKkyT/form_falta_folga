@@ -1,0 +1,95 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+    background: #DFDFDF;
+  }
+  
+  body {
+    width: 43rem;
+    margin-inline: auto;/* USADO PARA CENTRALIZAR O CONTEÚDO NO CENTRO DA PÁGINA*/
+    box-sizing: border-box;/*Propriedade que ajuda o box-sizing: border-box a englobar co valor dos paddings a somatória e mostrar todo o conteúdo do box*/
+    height: 100vh;
+    font-size: 1.6rem;
+    padding: 0 3.0rem;
+    
+  }
+
+  header {
+    font-size: 6.4rem;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.0rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 6.8rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    line-height: 1.0rem;
+  }
+
+  label {
+    font-size: 2.4rem;
+  }
+
+  input {
+    height: 3.0rem;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1.0rem;
+    background-color: #C7C7C7;
+  }
+
+  input.loja {
+    width: 10.0rem;
+    height: 3.0rem;
+
+  }
+
+  input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  input.date {
+    margin-bottom: 20.0rem;
+  }
+  
+
+  button {
+    width: 13.5rem;
+    height: 4.7rem;
+    margin:auto;
+    background-color: #777777;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor:pointer;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  
+
